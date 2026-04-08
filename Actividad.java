@@ -5,14 +5,14 @@
 import javax.swing.*;
 /**
  *
- * @author INGRESE SU NOMBRE
+ * @author Brayan Felipe Vega Perez
  */
 public class Actividad {
     public static void main(String args[])
     {
-        String nombre = //COMPLETAR, HACER QUE EL USUARIO INGRESE SU NOMBRE
-        int edad = //COMPLETAR, HACER QUE EL USUARIO INGRESE SU EDAD
-        String texto = "Hola, mi nombre es " + nombre + ", tengo " + edad + " años, y esta es la actividad de la exposición 6.";
+        String nombre = JOptionPane.showInputDialog(null, "Ingrese su nombre ");
+        int edad = Interget.parseInt(JOptionPane.showInputDialog(null, "Ingrese su edad "));
+        String texto = Interget"Hola, mi nombre es " + nombre + ", tengo " + edad + " años, y esta es la actividad de la exposición 6.";
         JOptionPane.showMessageDialog(null, texto);
     }
 }
